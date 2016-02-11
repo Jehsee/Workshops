@@ -1,7 +1,7 @@
 /*Below is for the on click popup of image*/
 div {
   position: absolute;
-  height: 800px;
+  /*height: 800px;*/
   background-color: gray;
   opacity: 0.5;
   top: 0;
@@ -12,7 +12,8 @@ div {
 
 img   {
   position: absolute;
-  top: 40px;
-  left: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
 /*above is for on click popup image*/
